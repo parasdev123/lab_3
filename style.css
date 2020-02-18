@@ -22,8 +22,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Forum";
-  color: red;
+  color: black;
 }
 
 p,
@@ -81,6 +80,7 @@ section {
 h1 {
   flex: 5;
   text-transform: uppercase;
+  font-family: "Monoton";
 }
 
 header img {
@@ -147,7 +147,7 @@ section {
 
 .aside img {
   max-width: 100%;
-  padding: ;
+  height: 130px;
 }
 
 footer {
