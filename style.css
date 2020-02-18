@@ -8,7 +8,7 @@ body {
 
 html {
   font-size: 10px;
-  background-color: #05cfff;
+  background-color: powderblue;
 }
 
 body {
@@ -23,6 +23,9 @@ h1,
 h2,
 h3 {
   color: black;
+  font-family: "Comfortaa", cursive;
+  font-weight: "Regular";
+  font-size: 6em;
 }
 
 p,
@@ -33,7 +36,6 @@ li {
 }
 
 h1 {
-  font-size: 4rem;
   text-align: center;
   text-shadow: 2px 2px 10px black;
 }
@@ -41,10 +43,14 @@ h1 {
 h2 {
   font-size: 3rem;
   text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-weight: "Light";
 }
 
 h3 {
   font-size: 2.2rem;
+  font-family: "Comfortaa", cursive;
+  font-weight: "Bold";
 }
 
 p,
@@ -62,7 +68,7 @@ header {
 }
 
 body > * {
-  background-color: red;
+  background-color: rgba(0, 255, 0, 0.5);
   padding: 1%;
 }
 
@@ -73,14 +79,13 @@ article,
 aside,
 footer,
 section {
-  background-color: powderblue;
+  background-color: rgba(0, 255, 0, 0.5);
   padding: 1%;
 }
 
 h1 {
   flex: 5;
   text-transform: uppercase;
-  font-family: "Monoton";
 }
 
 header img {
@@ -93,7 +98,7 @@ nav {
   height: 50px;
   flex: 100%;
   display: flex;
-  background-color: #36cfff;
+  background-color: rgba(0, 255, 0, 0.5);
 }
 
 nav ul {
@@ -129,14 +134,14 @@ nav span {
 .article,
 section {
   flex: 4;
-  background-color: powderblue;
+  background-color: rgba(0, 255, 0, 0.5);
 }
 
 .aside {
   flex: 1;
   margin-left: 10px;
   padding: 1%;
-  background-color: powderblue;
+  background-color: rgba(0, 255, 0, 0.5);
 }
 
 .aside a {
